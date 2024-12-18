@@ -1,0 +1,56 @@
+/* Estilos para el detalle de producto */
+.producto-detalle {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8bbd0; /* Fondo rosa pastel suave */
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+.producto-detalle h2 {
+  font-size: 2.2rem;
+  color: #333; /* Color negro para el título */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.producto-detalle img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  object-fit: cover; /* Asegura que la imagen se recorte bien si es necesario */
+}
+
+.producto-detalle p {
+  color: #333; /* Color negro para el texto */
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.producto-detalle button {
+  background-color: #f8bbd0; /* Rosa pastel como fondo del botón */
+  color: #333; /* Color negro para el texto del botón */
+  padding: 12px 25px;
+  border: 2px solid #333; /* Borde negro para darle contraste */
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.producto-detalle button:hover {
+  background-color: #333; /* Cambia a color negro */
+  color: #f8bbd0; /* Cambia el texto a rosa pastel */
+  border-color: #f8bbd0; /* Borde rosa pastel */
+}
+
+.producto-detalle button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efecto de foco para mejor accesibilidad */
+}

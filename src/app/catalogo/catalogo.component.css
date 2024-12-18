@@ -1,0 +1,97 @@
+/* Estilos generales para la página */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fce4ec; /* Rosa pastel suave de fondo */
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #333; 
+  font-size: 3rem; 
+  margin: 60px 0;
+  font-weight: bold;
+  text-transform: uppercase; /* Texto en mayúsculas para un toque elegante */
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
+h2{
+  text-align: center;
+  color: #000000; 
+  font-size: 1rem; 
+  margin: 60px 0;
+  font-weight: bold;
+  text-transform: uppercase; 
+  letter-spacing: 2px; /* Espaciado entre letras */
+}
+
+/* Contenedor del catálogo */
+.catalogo-container {
+  padding: 40px; /* Aumentar el padding para más espacio */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Diseño responsivo */
+  gap: 30px; /* Aumentar el espacio entre productos */
+  justify-items: center;
+}
+
+.producto {
+  background-color: #ffffff; /* Fondo blanco para un contraste elegante */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  padding: 30px; /* Aumentar el padding */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición más suave */
+  border: 2px solid #000000; /* Borde negro alrededor del producto */
+}
+
+.producto:hover {
+  transform: translateY(-8px); /* Efecto de elevación más pronunciado */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Sombra más intensa al pasar el mouse */
+}
+
+.producto h3 {
+  color: #000000; /* Rosa pastel */
+  font-size: 1.8rem; /* Aumentar el tamaño del texto */
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: capitalize; /* Capitalizar el texto */
+}
+
+.producto p {
+  color: #c43ba6; /* Rosa ligeramente más oscuro */
+  font-size: 1.2rem;
+  margin-bottom: 25px; /* Aumentar el margen inferior */
+}
+
+button {
+  background-color: #000000; /* Rosa pastel más intenso para el botón */
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Aumentar el padding */
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem; /* Aumentar el tamaño de la fuente */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el botón */
+}
+
+button:hover {
+  background-color: #f8bbd0; /* Cambio de color en hover */
+  transform: translateY(-2px); /* Efecto de elevación en hover */
+}
+
+/* Imagen de los productos */
+.producto-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  object-fit: cover; /* Asegura que la imagen se ajuste bien */
+  border: 2px solid #000000; /* Borde negro alrededor de la imagen */
+}

@@ -1,0 +1,7 @@
+<div class="producto-detalle">
+  <h2>{{ producto.nombre }}</h2>
+  <img [src]="producto.imagen" alt="{{ producto.nombre }}" class="producto-img"/>
+  <p>{{ producto.descripcion }}</p>
+  <p>Precio: ${{ producto.precio }}</p>
+  <button (click)="onRegresar()">Regresar al catálogo</button>
+</div>
